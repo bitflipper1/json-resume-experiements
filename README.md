@@ -18,3 +18,4 @@ Visit: https://YOUR_USERNAME.github.io/json-resume-experiments/
 ## 📖 Full Documentation
 
 See the complete README in the repository for detailed setup, API docs, and customization options.
+# json-resume-experiements
