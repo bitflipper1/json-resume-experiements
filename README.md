@@ -25,6 +25,24 @@ AI-powered resume parser, tailor, and formatter using Claude AI and Google Gemin
 
 ### Installation
 
+#### Option 1: Automated Setup (Recommended)
+
+```bash
+git clone https://github.com/bitflipper1/json-resume-experiements.git
+cd json-resume-experiements
+./setup.sh
+```
+
+Then edit `.env` with your API keys and run:
+
+```bash
+./start.sh
+```
+
+This will start both servers automatically. Press Ctrl+C to stop.
+
+#### Option 2: Manual Setup
+
 1. **Clone the repository**:
 ```bash
 git clone https://github.com/bitflipper1/json-resume-experiements.git
