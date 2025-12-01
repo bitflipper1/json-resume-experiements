@@ -1,0 +1,152 @@
+{
+    "vertex_one": {
+        "title": "Vertex One HMI | Modernization & Predictive Maintenance",
+        "domain": "Industrial IoT, Semiconductor Manufacturing",
+        "challenge": "Modernize a mission-critical gas detection interface for semiconductor manufacturing",
+        "discovery": "Conducted field research and workshops to understand 'high-containment' user constraints",
+        "strategy": "Developed a 'Fail-Safe' design strategy utilizing digital twins for predictive maintenance",
+        "outcome": "Introduced 'Point Mapping' and 'Alarm Intelligence' features that increased operator productivity",
+        "metrics": [
+            "Mission-critical system for semiconductor fabs",
+            "High-containment environment constraints",
+            "Predictive maintenance capabilities"
+        ],
+        "keywords": [
+            "Industrial IoT",
+            "Predictive Maintenance",
+            "Digital Twin",
+            "Semiconductor Manufacturing",
+            "Gas Detection",
+            "HMI Design",
+            "Fail-Safe Design",
+            "Point Mapping",
+            "Alarm Intelligence"
+        ],
+        "details": "Generated divergent HMI concepts to solve for high-risk 'pump maintenance' scenarios, using wireframes to visualize complex logic before converging on a solution."
+    },
+    "ewas": {
+        "title": "Enterprise Worker & Asset Safety (EWAS) | Discovery & Strategic Pivot",
+        "domain": "Enterprise Safety, Industrial IoT",
+        "challenge": "Unify fragmented legacy safety tools into a single intelligent platform",
+        "discovery": "Mapped the entire ecosystem and identified user friction in device setup. Conducted deep-dive current state audits of fragmented legacy tools, mapping redundant paths and friction points.",
+        "strategy": "Pivoted to a 'Guided Onboarding' strategy based on CTO guidance and workshop insights. Defined strategic vision for NFC/QR-based device assignment.",
+        "outcome": "Delivered a unified platform serving 80K+ users with a 20% reduction in configuration time",
+        "metrics": [
+            "80,000+ users",
+            "20% reduction in configuration time",
+            "Multi-day discovery workshops",
+            "100+ usability tests"
+        ],
+        "keywords": [
+            "Enterprise Safety",
+            "Platform Unification",
+            "Guided Onboarding",
+            "NFC/QR Technology",
+            "Device Assignment",
+            "Current State Audit",
+            "Stakeholder Workshops",
+            "Usability Testing",
+            "Configuration Optimization"
+        ],
+        "details": "Facilitated multi-day discovery workshops with cross-functional stakeholders (Engineering, Product, Field Services) to deconstruct service inefficiencies. Synthesized qualitative data from Voice of Customer (VOC) sessions using AI clustering to identify high-value opportunities."
+    },
+    "transmission_risk": {
+        "title": "Honeywell Transmission Risk Air Monitor",
+        "domain": "Healthcare, IoT, Mobile & Web",
+        "challenge": "Design air quality monitoring system for healthcare environments during pandemic",
+        "discovery": "Research on healthcare facility needs and air quality monitoring requirements",
+        "strategy": "Created integrated mobile and web solution for real-time air quality monitoring",
+        "outcome": "Won iF Design Award 2021 for innovative healthcare IoT solution",
+        "metrics": [
+            "iF Design Award 2021",
+            "Mobile & Web platforms",
+            "Real-time monitoring"
+        ],
+        "keywords": [
+            "Healthcare IoT",
+            "Air Quality Monitoring",
+            "Mobile Design",
+            "Web Design",
+            "Real-time Data",
+            "Award-winning Design",
+            "Pandemic Response",
+            "Healthcare Technology"
+        ],
+        "details": "Designed comprehensive air monitoring solution with mobile and web interfaces for healthcare facilities to monitor transmission risk during the COVID-19 pandemic."
+    },
+    "ecomdash": {
+        "title": "Ecomdash Multi-Channel Analytics Platform",
+        "domain": "E-commerce, SaaS, Data Visualization",
+        "challenge": "Unify data from 15+ shopping APIs into a single decision-making dashboard",
+        "discovery": "Analyzed onboarding friction using Hotjar and Google Analytics, creating journey maps that identified critical drop-off points",
+        "strategy": "Introduced design thinking frameworks and created unified analytics platform",
+        "outcome": "20% increase in conversion rates. Contributed to acquisition by Endurance Group (Constant Contact)",
+        "metrics": [
+            "15+ shopping APIs integrated",
+            "20% increase in conversion rates",
+            "Led to company acquisition"
+        ],
+        "keywords": [
+            "E-commerce",
+            "Multi-channel Analytics",
+            "Data Visualization",
+            "API Integration",
+            "Conversion Optimization",
+            "Journey Mapping",
+            "Hotjar",
+            "Google Analytics",
+            "Design Thinking"
+        ],
+        "details": "Designed a multi-channel analytics platform unifying data from Amazon, Shopify, eBay, and 12+ other shopping APIs into a single decision-making dashboard. Established the design strategy that contributed to the acquisition by Endurance Group."
+    },
+    "wells_fargo": {
+        "title": "Wells Fargo Enterprise Audit Applications",
+        "domain": "Financial Services, Audit, Compliance",
+        "challenge": "Optimize enterprise audit applications in highly regulated financial environment",
+        "discovery": "Collaborated in Agile environment to align strategic requirements between Product Management and Engineering",
+        "strategy": "Created high-fidelity interactive prototypes to facilitate stakeholder storytelling",
+        "outcome": "Reduced rework and clarified scope early in discovery process. Secured alignment on complex audit workflows",
+        "metrics": [
+            "Enterprise-scale audit tools",
+            "Highly regulated environment",
+            "Cross-functional alignment"
+        ],
+        "keywords": [
+            "Financial Services",
+            "Audit Applications",
+            "Compliance",
+            "Enterprise UX",
+            "Axure Prototyping",
+            "Stakeholder Alignment",
+            "Agile",
+            "Regulated Industry",
+            "Complex Workflows"
+        ],
+        "details": "Driven solution discovery for enterprise audit applications within a highly regulated financial environment. Influenced the adoption of modern design thinking practices across teams to improve cross-functional cohesion."
+    },
+    "bank_of_america": {
+        "title": "Bank of America Financial Tools",
+        "domain": "Financial Services, Data Visualization, Compliance",
+        "challenge": "Optimize enterprise financial tools for internal audit and compliance operations",
+        "discovery": "Facilitated design thinking workshops to align diverse stakeholders on workflow improvements",
+        "strategy": "Developed user journey maps and accessible patterns for internal audit tools",
+        "outcome": "Ensured alignment with complex regulatory requirements. Designed responsive interfaces for large-scale transaction data",
+        "metrics": [
+            "Enterprise financial tools",
+            "Large-scale transaction data",
+            "Regulatory compliance"
+        ],
+        "keywords": [
+            "Financial Services",
+            "Audit Tools",
+            "Compliance",
+            "Data Visualization",
+            "Journey Mapping",
+            "Accessibility",
+            "Regulatory Requirements",
+            "Enterprise UX",
+            "Design Thinking Workshops"
+        ],
+        "details": "Facilitated design thinking workshops to align diverse stakeholders on workflow improvements for data-dense financial applications. Partnered with data teams to design responsive interfaces capable of processing large-scale transaction data."
+    }
+}

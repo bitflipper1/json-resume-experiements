@@ -1,0 +1,19 @@
+{
+    "name": "formatter-service",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Service that renders JSON‑Resume to HTML and PDF using jsonresume-theme-boilerplate",
+    "main": "src/server.js",
+    "scripts": {
+        "dev": "node src/server.js",
+        "render": "node src/format.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "resume-cli": "^3.0.0",
+        "puppeteer": "^22.8.0",
+        "jsonresume-theme-boilerplate": "file:../theme-boilerplate"
+    }
+}

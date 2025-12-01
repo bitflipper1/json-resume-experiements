@@ -1,0 +1,81 @@
+Matt McGlothlin
+Senior Product Designer – Discovery & Strategy
+mattmcg@bitfliptech.com • 704-293-5049 • Charlotte, NC • linkedin.com/in/bitflip • designmatt-ers.com
+
+SUMMARY
+Senior Product Design Strategist with 10+ years of experience driving solution discovery in complex, regulated industries (Fintech, Healthcare, Industrial IoT). Expert in navigating ambiguity through the Double Diamond framework, utilizing divergent prototyping and co-creation workshops to align executive strategy with validated user needs. Proven ability to pivot product roadmaps based on rigorous current state audits and executive guidance, delivering scalable strategies that influence long-term product vision.
+
+CORE COMPETENCIES
+Discovery & Strategy: Double Diamond Methodology, Current State Audits, Hypothesis-Driven Design, Service Design, Competitor Benchmarking, Roadmap Planning.
+
+Ideation & Validation: Divergent Concept Generation, Rapid Prototyping, A/B Testing, Heuristic Evaluation, Usability Testing (Moderated/Unmoderated).
+
+Facilitation & Leadership: Stakeholder Workshops, Design Thinking Facilitation, Cross-Functional Alignment, DesignOps, Mentoring Junior Designers.
+
+Domain Expertise: Financial Services (Audit/Compliance), Enterprise SaaS, Complex Data Visualization, Accessibility (WCAG 2.2).
+
+EXPERIENCE
+Honeywell | UX Manager / Lead | Charlotte, NC | April 2021 – Present
+Leading global discovery and strategy for enterprise safety platforms, serving 80K+ users in high-compliance environments.
+
+Strategic Pivot & Executive Alignment (EWAS Platform):
+• Led the discovery phase for the Enterprise Worker & Asset Safety (EWAS) platform transformation. Conducted deep-dive current state audits of fragmented legacy tools, mapping redundant paths and friction points.
+• Pivoted product strategy following critical CTO guidance and stakeholder workshops, moving from a complex manual configuration model to a "Guided Onboarding" and AI-assisted workflow.
+• Defined the strategic vision for NFC/QR-based device assignment, a key differentiator that eliminated manual entry errors and streamlined shift handoffs.
+
+Discovery Workshops & Divergent Concepting (Vertex One):
+• Facilitated multi-day discovery workshops with cross-functional stakeholders (Engineering, Product, Field Services) to deconstruct service inefficiencies in semiconductor fabs.
+• Generated divergent HMI concepts to solve for high-risk "pump maintenance" scenarios, using wireframes to visualize complex logic before converging on a solution.
+• Synthesized qualitative data from Voice of Customer (VOC) sessions using AI clustering to identify high-value opportunities, directly influencing the roadmap for predictive maintenance features.
+
+Validation & Iteration:
+• Conducted 100+ usability tests and field observations to validate hypotheses; iterated designs based on quantitative success metrics, reducing configuration time by 20%.
+
+Design Leadership:
+• Directed a global team of 20+ designers, establishing "Design Quality" reviews and mentoring staff on discovery methods and hypothesis-driven design.
+
+Wells Fargo | Lead UX Designer (Contract) | Charlotte, NC | January 2021 – April 2021
+Driven solution discovery for enterprise audit applications within a highly regulated financial environment.
+• Collaborated in an Agile environment to align strategic requirements between Product Management and Engineering, reducing rework and clarifying scope early in the discovery process.
+• Created high-fidelity interactive prototypes in Axure to facilitate stakeholder storytelling, securing alignment on complex audit workflows before development.
+• Influenced the adoption of modern design thinking practices across teams to improve cross-functional cohesion.
+
+Ecomdash (Endurance Group) | Senior UX Designer | Charlotte, NC | November 2019 – December 2020
+Established the design strategy that contributed to the acquisition by Endurance Group (Constant Contact).
+• Problem Discovery: Analyzed onboarding friction using Hotjar and Google Analytics, creating journey maps that identified critical drop-off points.
+• Strategic Impact: Introduced design thinking frameworks that led to a 20% increase in conversion rates.
+• Solution Delivery: Designed a multi-channel analytics platform unifying data from 15+ shopping APIs (Amazon, Shopify, eBay) into a single decision-making dashboard.
+
+Bank of America | Senior UX Designer (Contract) | Charlotte, NC | March 2019 – November 2019
+Optimized enterprise financial tools for internal audit and compliance operations.
+• Facilitated design thinking workshops to align diverse stakeholders on workflow improvements for data-dense financial applications.
+• Developed user journey maps and accessible patterns for internal audit tools, ensuring alignment with complex regulatory requirements.
+• Partnered with data teams to design responsive interfaces capable of processing large-scale transaction data.
+
+Central Piedmont Community College | User Experience Instructor | Charlotte, NC | January 2019 – June 2022
+• Taught discovery methods, prototyping, and design principles to 30+ students, mentoring them on how to articulate design strategy and rationale.
+
+KEY PROJECTS
+Enterprise Worker & Asset Safety (EWAS) | Discovery & Strategic Pivot
+Challenge: Unify fragmented legacy safety tools into a single intelligent platform.
+Discovery: Mapped the entire ecosystem and identified user friction in device setup.
+Strategy: Pivoted to a "Guided Onboarding" strategy based on CTO guidance and workshop insights.
+Outcome: Delivered a unified platform serving 80K+ users with a 20% reduction in configuration time.
+
+Vertex One HMI | Concepting & Validation
+Challenge: Modernize a mission-critical gas detection interface for semiconductor manufacturing.
+Discovery: Conducted field research and workshops to understand "high-containment" user constraints.
+Strategy: Developed a "Fail-Safe" design strategy utilizing digital twins for predictive maintenance.
+Outcome: Introduced "Point Mapping" and "Alarm Intelligence" features that increased operator productivity.
+
+SOFTWARE & TOOLS
+Strategy & Workshop: Miro, FigJam, Mural, MS Copilot (AI Synthesis).
+Design & Prototyping: Figma (Variables, Dev Mode), Axure, ProtoPie, Sketch.
+Research & Analytics: UserTesting.com, Hotjar, Google Analytics, Dovetail.
+Development Handoff: Jira, Confluence, Storybook.
+
+EDUCATION
+West Virginia University | B.S. Journalism/Public Relations
+
+AWARDS
+iF Design Award | 2021 | Honeywell Transmission Risk Air Monitor (mobile & web)

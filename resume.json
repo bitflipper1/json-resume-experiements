@@ -1,0 +1,382 @@
+{
+  "basics": {
+    "name": "Matt McGlothlin",
+    "headline": "Lead Product Designer",
+    "email": "mattmcg@bitfliptech.com",
+    "phone": "704-293-5049",
+    "location": "Charlotte, NC",
+    "url": {
+      "label": "linkedin.com/in/bitflip",
+      "href": "https://linkedin.com/in/bitflip"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "metadata": {
+    "css": {
+      "value": "",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "notes": "",
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#dc2626"
+    },
+    "layout": [
+      [
+        [
+          "summary",
+          "experience",
+          "projects",
+          "skills",
+          "awards",
+          "certifications",
+          "education"
+        ],
+        [
+          "interests",
+          "publications",
+          "volunteer",
+          "profiles",
+          "references",
+          "languages"
+        ]
+      ]
+    ],
+    "template": "rhyhorn",
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular",
+          "italic",
+          "600"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": true,
+      "underlineLinks": true
+    }
+  },
+  "sections": {
+    "summary": {
+      "id": "summary",
+      "name": "Summary",
+      "columns": 1,
+      "visible": true,
+      "content": "<p>Strategic Lead Product Designer with 10+ years of experience driving end-to-end design excellence for complex B2B enterprise products. Proven track record of shaping design culture and mentoring global teams (20+ designers) to deliver intuitive, cohesive user experiences that drive measurable business impact. Expert in architecting scalable design systems, integrating AI-driven workflows, and partnering with Engineering and Product leadership to translate complex technical requirements into elegant, user-centered solutions.</p>"
+    },
+    "experience": {
+      "id": "experience",
+      "name": "Experience",
+      "columns": 1,
+      "visible": true,
+      "items": [
+        {
+          "id": "exp1",
+          "visible": true,
+          "company": "Honeywell",
+          "position": "UX Manager / Lead Product Designer",
+          "location": "Charlotte, NC",
+          "date": "April 2021 – Present",
+          "summary": "<p>Design Leadership & Culture: Lead and mentor a global team of 20+ designers across the US, China, and India, establishing a culture of creative excellence through respectful critiques and standardized design processes.</p><p>Design Systems Strategy: Architected and managed a comprehensive Figma-based design system (500+ components), introducing governance models and versioning that reduced design time by 25% and saved ~$1M in licensing costs.</p><p>End-to-End Product Execution: Directed the end-to-end design strategy for the Enterprise Worker & Asset Safety platform, unifying disparate legacy tools into a cohesive, intelligent SaaS solution serving 80K+ global users.</p><p>Strategic Collaboration: Partner closely with Engineering and Product Management to define roadmaps and execute vision, facilitating 50+ workshops to align stakeholders on product direction and technical feasibility.</p><p>Business Impact: Drove a 30% increase in product adoption and customer satisfaction by integrating user feedback loops and conducting 100+ validation sessions to refine complex workflows.</p><p>Innovation: Pioneered the integration of AI-driven features, including predictive safety insights and \"Copilot-style\" dashboards, enhancing user decision-making in high-stakes environments.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "exp2",
+          "visible": true,
+          "company": "Wells Fargo",
+          "position": "Lead UX Designer (Contract)",
+          "location": "Charlotte, NC",
+          "date": "January 2021 – April 2021",
+          "summary": "<p>Driven design excellence in a fully remote Agile environment, creating high-fidelity prototypes for enterprise audit applications that accelerated stakeholder alignment on MVP scope.</p><p>Influenced the adoption of modern design practices and improved cross-functional cohesion between Design, Product, and Engineering teams.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "exp3",
+          "visible": true,
+          "company": "Ecomdash (Endurance Group)",
+          "position": "Senior UX Designer",
+          "location": "Charlotte, NC",
+          "date": "November 2019 – December 2020",
+          "summary": "<p>Established the company's first scalable design system and introduced design thinking frameworks, directly contributing to a 20% increase in conversion rates and the platform's successful acquisition.</p><p>Led the end-to-end design of a multi-channel analytics dashboard, translating complex inventory data into clear, actionable insights for merchants managing 10,000+ SKUs.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "exp4",
+          "visible": true,
+          "company": "Bank of America",
+          "position": "Senior UX Designer (Contract)",
+          "location": "Charlotte, NC",
+          "date": "March 2019 – November 2019",
+          "summary": "<p>Designed intuitive, data-dense workflows for internal audit and compliance tools, ensuring strict accessibility compliance and responsiveness.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "skills": {
+      "id": "skills",
+      "name": "Core Competencies",
+      "columns": 1,
+      "visible": true,
+      "items": [
+        {
+          "id": "skill1",
+          "visible": true,
+          "name": "Design Leadership",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Design Operations (DesignOps)",
+            "Team Mentorship",
+            "Vision & Strategy",
+            "Cross-Functional Leadership",
+            "Stakeholder Management"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "skill2",
+          "visible": true,
+          "name": "Product Design",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "End-to-End Product Lifecycle",
+            "Interaction Design (IxD)",
+            "Information Architecture (IA)",
+            "Complex Data Visualization",
+            "AI-First Design"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "skill3",
+          "visible": true,
+          "name": "Design Systems",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Scalable Architecture",
+            "Tokenization (Variables)",
+            "Governance models",
+            "Accessibility (WCAG 2.1/2.2 AA)",
+            "Figma Advanced Prototyping"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "skill4",
+          "visible": true,
+          "name": "Research & Strategy",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "User-Centered Design (UCD)",
+            "Workshop Facilitation",
+            "Agile/Scrum Methodologies",
+            "ROI Analysis",
+            "Qualitative/Quantitative Research"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "projects": {
+      "id": "projects",
+      "name": "Key Projects",
+      "columns": 1,
+      "visible": true,
+      "items": [
+        {
+          "id": "proj1",
+          "visible": true,
+          "name": "Enterprise Worker & Asset Safety (EWAS) Platform",
+          "description": "Challenge: Transform a fragmented ecosystem of legacy safety tools into a unified, modern B2B platform.\nSolution: Led the strategy and execution of a cloud-native platform featuring AI-guided onboarding and real-time fleet management.\nImpact: Delivered a cohesive experience for 80K+ users, reducing device configuration time by 20% and eliminating manual entry errors through novel NFC/QR interactions.",
+          "date": "",
+          "summary": "",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "proj2",
+          "visible": true,
+          "name": "Enterprise Design Systems & DesignOps",
+          "description": "Challenge: Inefficient workflows and inconsistent UI across a distributed global team using legacy tools.\nSolution: Built and governed a scalable Figma design system with tokenized variables and automated workflows. Implemented \"branching/merging\" protocols for seamless developer handoff.\nImpact: Reduced file duplication by 50%, accelerated delivery cycles, and established a shared design language across web and mobile touchpoints.",
+          "date": "",
+          "summary": "",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "proj3",
+          "visible": true,
+          "name": "Vertex One Industrial Platform",
+          "description": "Challenge: Design a fail-safe HMI (Human Machine Interface) for mission-critical toxic gas monitoring in semiconductor fabrication.\nSolution: Translated complex sensor data into clear, actionable visualizations. Designed \"guided maintenance\" workflows to reduce operator error in high-stress scenarios.\nImpact: Created a best-in-class user experience that differentiated the product in the market and improved operator safety and efficiency.",
+          "date": "",
+          "summary": "",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "education": {
+      "id": "education",
+      "name": "Education",
+      "columns": 1,
+      "visible": true,
+      "items": [
+        {
+          "id": "edu1",
+          "visible": true,
+          "institution": "West Virginia University",
+          "studyType": "B.S.",
+          "area": "Journalism/Public Relations",
+          "date": "",
+          "score": "",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "awards": {
+      "id": "awards",
+      "name": "Awards & Certifications",
+      "columns": 1,
+      "visible": true,
+      "items": [
+        {
+          "id": "award1",
+          "visible": true,
+          "title": "",
+          "awarder": "",
+          "date": "",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "award2",
+          "visible": true,
+          "title": "",
+          "awarder": "",
+          "date": "",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "certifications": {
+      "id": "certifications",
+      "name": "Certifications",
+      "columns": 1,
+      "visible": true,
+      "items": []
+    },
+    "profiles": {
+      "id": "profiles",
+      "name": "Profiles",
+      "columns": 1,
+      "visible": true,
+      "items": []
+    },
+    "interests": {
+      "id": "interests",
+      "name": "Interests",
+      "columns": 1,
+      "visible": true,
+      "items": []
+    },
+    "languages": {
+      "id": "languages",
+      "name": "Languages",
+      "columns": 1,
+      "visible": true,
+      "items": []
+    },
+    "volunteer": {
+      "id": "volunteer",
+      "name": "Volunteering",
+      "columns": 1,
+      "visible": true,
+      "items": []
+    },
+    "references": {
+      "id": "references",
+      "name": "References",
+      "columns": 1,
+      "visible": true,
+      "items": []
+    },
+    "publications": {
+      "id": "publications",
+      "name": "Publications",
+      "columns": 1,
+      "visible": true,
+      "items": []
+    },
+    "custom": {}
+  }
+}

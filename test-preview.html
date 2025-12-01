@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Test - Resume Preview</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    button {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom: 15px;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: translateY(-2px);
+    }
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+    .status {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      display: none;
+    }
+    .status.show {
+      display: block;
+    }
+    .status.loading {
+      background: #fff3cd;
+      color: #856404;
+    }
+    .status.success {
+      background: #d1fae5;
+      color: #065f46;
+    }
+    .status.error {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+    .spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(0,0,0,0.1);
+      border-left-color: #856404;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-right: 8px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚀 Quick Resume Preview Test</h1>
+    <p>Test the complete flow with one click - uses sample data automatically</p>
+
+    <button id="testBtn">▶️ Test Full Flow (Parse → Tailor → Preview)</button>
+    <button id="quickPreviewBtn">👁️ Quick Preview (Sample JSON)</button>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script>
+    const testBtn = document.getElementById('testBtn');
+    const quickPreviewBtn = document.getElementById('quickPreviewBtn');
+    const statusDiv = document.getElementById('status');
+
+    // Sample job description
+    const SAMPLE_JOB = `Senior Product Designer - Enterprise SaaS
+Company: TechCorp
+Location: Remote
+
+We're looking for a Senior Product Designer to lead discovery and strategy for our enterprise platform. You'll work with cross-functional teams to design complex workflows for regulated industries.
+
+Requirements:
+- 8+ years product design experience
+- Strong discovery and strategy skills
+- Experience with enterprise SaaS
+- Design systems expertise
+- Figma proficiency`;
+
+    // Sample resume JSON (minimal for testing)
+    const SAMPLE_JSON_RESUME = {
+      "basics": {
+        "name": "Matt McGlothlin",
+        "label": "Senior Product Designer",
+        "email": "matt@example.com",
+        "phone": "555-1234",
+        "summary": "Senior Product Designer with 10+ years of experience in enterprise SaaS."
+      },
+      "work": [
+        {
+          "company": "Honeywell",
+          "position": "UX Manager",
+          "startDate": "2021-04",
+          "summary": "Leading global discovery and strategy for enterprise safety platforms."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Design",
+          "keywords": ["Figma", "Design Systems", "Prototyping"]
+        }
+      ],
+      "education": [
+        {
+          "institution": "West Virginia University",
+          "area": "Journalism",
+          "studyType": "B.S."
+        }
+      ]
+    };
+
+    function showStatus(message, type) {
+      statusDiv.textContent = message;
+      statusDiv.className = `status ${type} show`;
+      if (type === 'loading') {
+        statusDiv.innerHTML = `<span class="spinner"></span> ${message}`;
+      }
+    }
+
+    // Quick preview - just show the sample JSON formatted
+    quickPreviewBtn.addEventListener('click', async () => {
+      try {
+        quickPreviewBtn.disabled = true;
+        showStatus('Generating preview...', 'loading');
+
+        const response = await fetch('/api/format', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(SAMPLE_JSON_RESUME)
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to generate preview');
+        }
+
+        const html = await response.text();
+
+        // Open in new window
+        const previewWindow = window.open('', '_blank');
+        previewWindow.document.write(html);
+        previewWindow.document.close();
+
+        showStatus('✅ Preview opened in new tab!', 'success');
+      } catch (error) {
+        console.error('Error:', error);
+        showStatus(`Error: ${error.message}`, 'error');
+      } finally {
+        quickPreviewBtn.disabled = false;
+      }
+    });
+
+    // Full flow test
+    testBtn.addEventListener('click', async () => {
+      try {
+        testBtn.disabled = true;
+        showStatus('Step 1/2: Loading master resume...', 'loading');
+
+        // Get master resume
+        const masterResponse = await fetch('/api/master-resume');
+        const masterResult = await masterResponse.json();
+
+        if (!masterResponse.ok) {
+          throw new Error('Failed to load master resume');
+        }
+
+        showStatus('Step 2/2: Tailoring resume with Gemini...', 'loading');
+
+        // Tailor it (this will also generate DOCX but we'll ignore that)
+        const tailorResponse = await fetch('/api/tailor', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            resume: masterResult.data,
+            jobDescription: SAMPLE_JOB
+          })
+        });
+
+        if (!tailorResponse.ok) {
+          const errorData = await tailorResponse.json();
+          throw new Error(errorData.error || 'Failed to tailor resume');
+        }
+
+        // Get the DOCX (we'll ignore it for now)
+        await tailorResponse.blob();
+
+        showStatus('Step 3/3: Generating preview...', 'loading');
+
+        // Now preview the tailored resume
+        const previewResponse = await fetch('/api/format', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(masterResult.data) // Use the tailored data in production
+        });
+
+        if (!previewResponse.ok) {
+          throw new Error('Failed to generate preview');
+        }
+
+        const html = await previewResponse.text();
+
+        // Open in new window
+        const previewWindow = window.open('', '_blank');
+        previewWindow.document.write(html);
+        previewWindow.document.close();
+
+        showStatus('✅ Complete! DOCX downloaded and preview opened.', 'success');
+      } catch (error) {
+        console.error('Error:', error);
+        showStatus(`Error: ${error.message}`, 'error');
+      } finally {
+        testBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

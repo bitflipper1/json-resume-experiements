@@ -1,0 +1,18 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "label": "Senior UX Designer",
+    "email": "john@example.com",
+    "phone": "555-123-4567",
+    "summary": "Creative UX professional with 8 years of experience..."
+  },
+  "work": [
+    {
+      "company": "Acme Corp",
+      "position": "Lead Designer",
+      "startDate": "2019-01",
+      "endDate": "2024-06",
+      "summary": "Led redesign of flagship product."
+    }
+  ]
+}

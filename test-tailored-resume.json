@@ -1,0 +1,388 @@
+{
+  "basics": {
+    "name": "Matt McGlothlin",
+    "headline": "Senior Product Designer - Enterprise UX",
+    "email": "mattmcg@bitfliptech.com",
+    "phone": "704-293-5049",
+    "location": "Charlotte, NC",
+    "url": {
+      "label": "designmatt-ers.com",
+      "href": "http://designmatt-ers.com"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "metadata": {
+    "css": {
+      "value": "",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "notes": "",
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#dc2626"
+    },
+    "layout": [
+      [
+        [
+          "summary",
+          "experience",
+          "projects",
+          "skills",
+          "awards",
+          "certifications",
+          "education"
+        ],
+        [
+          "interests",
+          "publications",
+          "volunteer",
+          "profiles",
+          "references",
+          "languages"
+        ]
+      ]
+    ],
+    "template": "rhyhorn",
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular",
+          "italic",
+          "600"
+        ]
+      },
+      "lineHeight": 1.5,
+      "hideIcons": true,
+      "underlineLinks": true
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>Highly experienced Senior Product Designer with 10+ years specializing in <strong>complex enterprise applications</strong> and <strong>SaaS products</strong>, focusing on internal tools that drive employee efficiency. Proven ability to <strong>lead design discovery and strategy</strong>, conduct thorough <strong>user research and usability testing</strong> with <strong>internal stakeholders</strong>, and deliver <strong>wireframes, prototypes, and high-fidelity designs</strong>. Expert in collaborating with <strong>product managers and engineers</strong>, fostering cross-functional alignment, and advocating for <strong>accessibility and inclusive design practices</strong>, including <strong>WCAG standards</strong> and <strong>design systems</strong> within financial services and regulated industries.</p>"
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "honeywell-001",
+          "visible": true,
+          "company": "Honeywell",
+          "position": "UX Manager / Lead",
+          "location": "",
+          "date": "April 2021 - October 2025",
+          "summary": "<p>Leading <strong>design discovery and strategy</strong> for <strong>enterprise safety platforms</strong>, serving 80K+ users in high-compliance environments.</p><ul><li><p>Conducted <strong>deep-dive current state audits</strong> of fragmented legacy tools, mapping redundant paths and friction points to improve efficiency.</p></li><li><p><strong>Pivoted product strategy</strong> following critical CTO guidance and <strong>stakeholder workshops</strong>, moving to a \"Guided Onboarding\" and AI-assisted workflow.</p></li><li><p>Defined the strategic vision for <strong>NFC/QR-based device assignment</strong>, a key differentiator that eliminated manual entry errors and streamlined shift handoffs for <strong>internal applications</strong>.</p></li><li><p><strong>Facilitated multi-day discovery workshops</strong> with cross-functional <strong>internal stakeholders</strong> to deconstruct service inefficiencies in semiconductor fabs.</p></li><li><p>Generated divergent HMI concepts using <strong>wireframes and prototyping tools</strong> to solve for high-risk \"pump maintenance\" scenarios and visualize complex logic.</p></li><li><p>Synthesized qualitative data from <strong>user research (Voice of Customer)</strong> sessions using AI clustering to identify high-value opportunities.</p></li><li><p>Conducted <strong>100+ usability tests</strong> and field observations to validate hypotheses, reducing configuration time by 20% for <strong>enterprise applications</strong>.</p></li><li><p>Directed a global team of 20+ designers, establishing \"Design Quality\" reviews and mentoring staff on <strong>design discovery methods</strong>.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "wellsfargo-001",
+          "visible": true,
+          "company": "Wells Fargo",
+          "position": "Lead UX Designer (Contract)",
+          "location": "",
+          "date": "January 2021 - April 2021",
+          "summary": "<ul><li><p>Driven <strong>design discovery and strategy</strong> for <strong>enterprise audit applications</strong> within a <strong>highly regulated financial environment</strong>.</p></li><li><p><strong>Collaborated with product managers and engineers</strong> in an Agile environment to align strategic requirements and define product vision, reducing rework.</p></li><li><p>Created <strong>high-fidelity interactive prototypes</strong> in Axure to facilitate <strong>stakeholder alignment</strong> and storytelling on complex audit workflows for <strong>internal applications</strong>.</p></li><li><p>Influenced the adoption of modern <strong>design thinking practices</strong> across teams to improve cross-functional cohesion.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ecomdash-001",
+          "visible": true,
+          "company": "Ecomdash (Endurance Group)",
+          "position": "Senior UX Designer",
+          "location": "",
+          "date": "November 2019 - December 2020",
+          "summary": "<ul><li><p>Established the <strong>design strategy</strong> that contributed to the acquisition by Endurance Group (Constant Contact).</p></li><li><p>Analyzed onboarding friction using Hotjar and Google Analytics, creating journey maps that identified critical drop-off points in this <strong>SaaS product</strong>.</p></li><li><p>Introduced <strong>design thinking frameworks</strong> that led to a 20% increase in conversion rates.</p></li><li><p>Designed a <strong>multi-channel analytics platform</strong> unifying data from 15+ shopping APIs into a single decision-making dashboard for <strong>complex internal applications</strong>.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "bofa-001",
+          "visible": true,
+          "company": "Bank of America",
+          "position": "Senior UX Designer (Contract)",
+          "location": "",
+          "date": "March 2019 - November 2019",
+          "summary": "<ul><li><p>Optimized <strong>complex enterprise financial tools</strong> for internal audit and <strong>compliance operations</strong> within a <strong>regulated industry</strong>.</p></li><li><p><strong>Facilitated design thinking workshops</strong> to <strong>align diverse stakeholders</strong> on workflow improvements for data-dense <strong>financial applications</strong>.</p></li><li><p>Developed <strong>user journey maps</strong> and <strong>accessible design patterns</strong> for internal audit tools, ensuring alignment with <strong>complex regulatory requirements</strong> and <strong>accessibility standards (WCAG)</strong>.</p></li><li><p><strong>Collaborated with product managers and engineers</strong> to design <strong>responsive interfaces</strong> capable of processing large-scale transaction data, enhancing employee efficiency.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "cpcc-001",
+          "visible": true,
+          "company": "Central Piedmont Community College",
+          "position": "User Experience Instructor",
+          "location": "",
+          "date": "January 2019 - June 2022",
+          "summary": "<ul><li><p>Taught <strong>design discovery methods, prototyping, and design principles</strong> to 30+ students.</p></li><li><p>Mentored students on how to articulate <strong>design strategy and rationale</strong>.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "ewas-001",
+          "visible": true,
+          "name": "Enterprise Worker & Asset Safety (EWAS) | Discovery & Strategic Pivot",
+          "description": "",
+          "date": "",
+          "summary": "<p><strong>Challenge:</strong> Unify fragmented legacy safety tools into a single intelligent <strong>enterprise platform</strong> for <strong>internal applications</strong>.</p><p><strong>Discovery:</strong> Mapped the entire ecosystem and conducted <strong>user research</strong> to identify friction in device setup for <strong>internal stakeholders</strong>.</p><p><strong>Strategy:</strong> Pivoted to a \"Guided Onboarding\" strategy based on CTO guidance and <strong>stakeholder workshop</strong> insights, informing <strong>design strategy</strong>.</p><p><strong>Outcome:</strong> Delivered a unified platform serving 80K+ users with a <strong>20% reduction in configuration time</strong>, enhancing employee efficiency within <strong>complex enterprise applications</strong>.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "vertex-001",
+          "visible": true,
+          "name": "Vertex One HMI | Modernization & Predictive Maintenance",
+          "description": "",
+          "date": "",
+          "summary": "<p><strong>Challenge:</strong> Modernize a mission-critical gas detection interface (HMI) for <strong>semiconductor manufacturing</strong> (a <strong>regulated industry</strong>) to improve operational efficiency.</p><p><strong>Discovery:</strong> Conducted extensive <strong>field research</strong> and <strong>workshops</strong> with <strong>internal stakeholders</strong> to understand \"high-containment\" user constraints.</p><p><strong>Strategy:</strong> Developed a \"Fail-Safe\" <strong>design strategy</strong> utilizing digital twins for <strong>predictive maintenance</strong>, directly impacting enterprise efficiency.</p><p><strong>Outcome:</strong> Introduced \"Point Mapping\" and \"Alarm Intelligence\" features that increased operator productivity for these <strong>complex internal applications</strong>.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "wvu-001",
+          "visible": true,
+          "institution": "West Virginia University",
+          "studyType": "B.S.",
+          "area": "Journalism/Public Relations",
+          "score": "",
+          "date": "",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "skill-001",
+          "visible": true,
+          "name": "Product & Enterprise UX Design",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Lead Design Discovery",
+            "Design Strategy",
+            "Complex Enterprise Applications",
+            "SaaS Products",
+            "Internal Applications",
+            "Design Systems",
+            "Accessibility Standards (WCAG)"
+          ]
+        },
+        {
+          "id": "skill-002",
+          "visible": true,
+          "name": "User Research & Validation",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "User Research",
+            "Usability Testing",
+            "Internal Stakeholder Interviews",
+            "Current State Audits",
+            "Journey Mapping",
+            "Hypothesis-Driven Design"
+          ]
+        },
+        {
+          "id": "skill-003",
+          "visible": true,
+          "name": "Design & Prototyping Tools",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Figma (Variables, Dev Mode)",
+            "Prototyping Tools (Axure, ProtoPie)",
+            "Wireframes",
+            "High-Fidelity Designs",
+            "Miro",
+            "FigJam",
+            "Sketch"
+          ]
+        },
+        {
+          "id": "skill-004",
+          "visible": true,
+          "name": "Collaboration & Leadership",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Facilitate Workshops",
+            "Align Stakeholders",
+            "Collaborate with Product Managers",
+            "Collaborate with Engineers",
+            "Design Thinking Facilitation",
+            "Cross-Functional Alignment",
+            "DesignOps",
+            "Mentoring"
+          ]
+        },
+        {
+          "id": "skill-005",
+          "visible": true,
+          "name": "Domain Expertise & Compliance",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Financial Services",
+            "Regulated Industries",
+            "Audit & Compliance",
+            "Industrial IoT",
+            "Complex Data Visualization",
+            "NFC/QR Technology"
+          ]
+        }
+      ]
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": [
+        {
+          "id": "award-001",
+          "visible": true,
+          "title": "iF Design Award",
+          "awarder": "iF Design",
+          "date": "2021",
+          "summary": "<p>Honeywell Transmission Risk Air Monitor (mobile &amp; web)</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "profiles": {
+      "id": "profiles",
+      "name": "Profiles",
+      "items": [],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": []
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    }
+  }
+}

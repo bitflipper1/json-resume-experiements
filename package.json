@@ -1,0 +1,29 @@
+{
+  "name": "resume-parser",
+  "version": "1.0.0",
+  "description": "AI-powered resume parser that converts plain text resumes to Reactive Resume JSON format",
+  "type": "module",
+  "main": "parse-resume.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "parse": "node parse-resume.js",
+    "test": "node parse-resume.js sample-resume.txt"
+  },
+  "keywords": [
+    "resume",
+    "parser",
+    "reactive-resume",
+    "ai",
+    "claude"
+  ],
+  "author": "Matt McGlothlin",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0",
+    "@google/generative-ai": "^0.24.1",
+    "docx": "^9.5.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  }
+}

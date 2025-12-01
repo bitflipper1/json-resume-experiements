@@ -1,0 +1,423 @@
+{
+  "basics": {
+    "name": "Matt McGlothlin",
+    "headline": "Senior Product Designer – Discovery & Strategy",
+    "email": "mattmcg@bitfliptech.com",
+    "phone": "704-293-5049",
+    "location": "",
+    "url": {
+      "label": "",
+      "href": "http://designmatt-ers.com"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "metadata": {
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "notes": "",
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#dc2626"
+    },
+    "layout": [
+      [
+        [
+          "summary",
+          "custom.d9dsr09r3pjwu6g2at5jvflb",
+          "experience",
+          "projects",
+          "skills",
+          "awards",
+          "certifications",
+          "education",
+          "custom.y1o0xacmhjdfwrl92le35dwz"
+        ],
+        [
+          "interests",
+          "publications",
+          "volunteer",
+          "profiles",
+          "references",
+          "languages"
+        ]
+      ]
+    ],
+    "template": "rhyhorn",
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular",
+          "italic",
+          "600"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": true,
+      "underlineLinks": true
+    }
+  },
+  "sections": {
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": [
+        {
+          "id": "akn9t8aqmxxjby75o19c5uph",
+          "visible": true,
+          "title": "iF design Award",
+          "awarder": "iF Design",
+          "date": "2021",
+          "summary": "<p>Honeywell Transmission Risk Air Monitor (mobile &amp; web)</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "custom": {
+      "d9dsr09r3pjwu6g2at5jvflb": {
+        "name": "Core Competencies",
+        "columns": 1,
+        "separateLinks": false,
+        "visible": true,
+        "id": "d9dsr09r3pjwu6g2at5jvflb",
+        "items": [
+          {
+            "id": "pphj1usyhn7rfzjrhv4wvnaw",
+            "visible": true,
+            "name": "Discovery & Strategy: ",
+            "description": "Double Diamond Methodology, Current State Audits, Hypothesis-Driven Design, Service Design, Competitor Benchmarking, Roadmap Planning.",
+            "date": "",
+            "location": "",
+            "summary": "<p></p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          }
+        ]
+      },
+      "y1o0xacmhjdfwrl92le35dwz": {
+        "name": "Custom Section",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "y1o0xacmhjdfwrl92le35dwz",
+        "items": []
+      }
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "p76f2mb04v5alhczzzh8zsmh",
+          "visible": true,
+          "name": "Discovery & Strategy",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Double Diamond Methodology",
+            "Current State Audits",
+            "Hypothesis-Driven Design",
+            "Service Design",
+            "Competitor Benchmarking",
+            "Roadmap Planning"
+          ]
+        },
+        {
+          "id": "nsh9u43p0y418cmtzyrpih43",
+          "visible": true,
+          "name": "Ideation & Validation",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Divergent Concept Generation",
+            "Rapid Prototyping",
+            "A/B Testing",
+            "Heuristic Evaluation",
+            "Usability Testing (Moderated/Unmoderated)"
+          ]
+        },
+        {
+          "id": "fglim8lkgxeq2366adhn3zp8",
+          "visible": true,
+          "name": "Facilitation & Leadership",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Stakeholder Workshops",
+            "Design Thinking Facilitation",
+            "Cross-Functional Alignment",
+            "DesignOps",
+            "Mentoring Junior Designers"
+          ]
+        },
+        {
+          "id": "wzcum291rvgesiz7hf5mh8fm",
+          "visible": true,
+          "name": "Domain Expertise",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Financial Services (Audit/Compliance)",
+            "Enterprise SaaS",
+            "Complex Data Visualization",
+            "Accessibility (WCAG 2.2)"
+          ]
+        },
+        {
+          "id": "qoib205yv70jq099au86vnym",
+          "visible": true,
+          "name": "Software & Tools",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Miro",
+            "FigJam",
+            "Mural",
+            "MS Copilot (AI Synthesis)",
+            "Figma (Variables, Dev Mode)",
+            "Axure",
+            "ProtoPie",
+            "Sketch",
+            "UserTesting.com",
+            "Hotjar",
+            "Google Analytics",
+            "Jira",
+            "Confluence"
+          ]
+        }
+      ]
+    },
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>Senior Product Design Strategist with 10+ years of experience driving solution discovery in complex, regulated industries (Fintech, Healthcare, Industrial IoT). Expert in navigating ambiguity through the Double Diamond framework, utilizing divergent prototyping and co-creation workshops to align executive strategy with validated user needs. Proven ability to pivot product roadmaps based on rigorous current state audits and executive guidance, delivering scalable strategies that influence long-term product vision.</p>"
+    },
+    "profiles": {
+      "id": "profiles",
+      "name": "Profiles",
+      "items": [],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "sbzykmao747yiatvv3e0f3az",
+          "visible": true,
+          "name": "Enterprise Worker & Asset Safety (EWAS) | Discovery & Strategic Pivot",
+          "description": "",
+          "date": "",
+          "summary": "<p>Challenge: Unify fragmented legacy safety tools into a single intelligent platform.</p><p>Discovery: Mapped the entire ecosystem and identified user friction in device setup.</p><p>Strategy: Pivoted to a \"Guided Onboarding\" strategy based on CTO guidance and workshop insights.</p><p>Outcome: Delivered a unified platform serving 80K+ users with a 20% reduction in configuration time.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "jyj5oq9pw7lsa2m3l9dj567y",
+          "visible": true,
+          "institution": "West Virginia University",
+          "studyType": "B.S.",
+          "area": "Journalism/Public Relations",
+          "score": "",
+          "date": "May 1999",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": []
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "x7dlevh8kf9sn6gqxp59oaaf",
+          "visible": true,
+          "company": "Honeywell",
+          "position": "UX Manager / Lead",
+          "location": "",
+          "date": "April 2021 - October 2025",
+          "summary": "<p>Leading global discovery and strategy for enterprise safety platforms, serving 80K+ users in high-compliance environments.</p><p><strong>Strategic Pivot &amp; Executive Alignment (EWAS Platform):</strong></p><ul><li><p>Led the discovery phase for the Enterprise Worker &amp; Asset Safety (EWAS) platform transformation. Conducted deep-dive current state audits of fragmented legacy tools , mapping redundant paths and friction points.</p></li><li><p>Pivoted product strategy following critical CTO guidance and stakeholder workshops , moving from a complex manual configuration model to a \"Guided Onboarding\" and AI-assisted workflow.</p></li><li><p>Defined the strategic vision for NFC/QR-based device assignment, a key differentiator that eliminated manual entry errors and streamlined shift handoffs.</p></li></ul><p>Discovery Workshops &amp; Divergent Concepting (Vertex One): </p><ul><li><p>Facilitated multi-day discovery workshops with cross-functional stakeholders (Engineering, Product, Field Services) to deconstruct service inefficiencies in semiconductor fabs.</p></li><li><p>Generated divergent HMI concepts to solve for high-risk \"pump maintenance\" scenarios, using wireframes to visualize complex logic before converging on a solution.</p></li><li><p>Synthesized qualitative data from Voice of Customer (VOC) sessions using AI clustering to identify high-value opportunities , directly influencing the roadmap for predictive maintenance features.</p></li></ul><p>Validation &amp; Iteration: </p><ul><li><p>Conducted 100+ usability tests and field observations to validate hypotheses ; iterated designs based on quantitative success metrics, reducing configuration time by 20%.</p></li></ul><p><strong>Design Leadership: </strong></p><ul><li><p>Directed a global team of 20+ designers, establishing \"Design Quality\" reviews and mentoring staff on discovery methods and hypothesis-driven design.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "tblz3p0wq89prne2h5pfqwee",
+          "visible": true,
+          "company": "Wells Fargo",
+          "position": "Lead UX Designer (Contract)",
+          "location": "",
+          "date": "2021-01 - 2021-04",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "x6ehrrveasmgll4gcltyb9zl",
+          "visible": true,
+          "company": "Ecomdash (Endurance Group)",
+          "position": "Senior UX Designer",
+          "location": "",
+          "date": "2019-11 - 2020-12",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "uy65q5xs5j4riy1giwizcf1i",
+          "visible": true,
+          "company": "Bank of America",
+          "position": "Senior UX Designer (Contract)",
+          "location": "",
+          "date": "2019-03 - 2019-11",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ms1ud9pg0etq7ebjsdhdlyfx",
+          "visible": true,
+          "company": "Central Piedmont Community College",
+          "position": "User Experience Instructor",
+          "location": "",
+          "date": "2019-01 - 2022-06",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": [
+        {
+          "id": "cbqey1ymqrg9tntwj4ezaflk",
+          "visible": true,
+          "name": "Elements of AI",
+          "issuer": "Helsinki University",
+          "date": "March 2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    }
+  }
+}
