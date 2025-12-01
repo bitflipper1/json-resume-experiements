@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 import Anthropic from '@anthropic-ai/sdk';
 import { tailorResumeWithAI } from './tailor-resume.js';
 import { generateDocx } from './generate-docx.js';
+import { reactiveToJsonResume } from './scripts/reactive-to-jsonresume.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -307,11 +308,16 @@ app.post('/api/master-resume', (req, res) => {
  */
 app.post('/api/format', async (req, res) => {
   try {
+    // Convert Reactive Resume format to JSON-Resume format
+    const jsonResumeData = reactiveToJsonResume(req.body);
+
+    console.log('Converting Reactive Resume to JSON-Resume for formatting...');
+
     const formatterUrl = 'http://localhost:3002/api/render/html';
     const response = await fetch(formatterUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(req.body)
+      body: JSON.stringify(jsonResumeData)
     });
 
     if (!response.ok) {
