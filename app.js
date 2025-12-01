@@ -185,6 +185,7 @@ async function handleParse() {
 
     // Success
     parsedData = result.data;
+    tailoredResumeData = result.data; // Also set for preview functionality
     output.value = JSON.stringify(result.data, null, 2);
 
     showStatus('Resume parsed successfully! You can now copy or download the JSON.', 'success');
@@ -582,4 +583,57 @@ function downloadBase64File(base64Data, filename) {
     console.error('❌ Download failed:', error);
     alert('Failed to download file: ' + error.message);
   }
+}
+
+// Format/Preview Tab Handler
+const formatPreviewBtn = document.getElementById('formatPreviewBtn');
+const formatStatus = document.getElementById('formatStatus');
+
+if (formatPreviewBtn) {
+  formatPreviewBtn.addEventListener('click', async () => {
+    if (!tailoredResumeData) {
+      formatStatus.textContent = '⚠️ Please parse a resume first (and optionally tailor it) before previewing.';
+      formatStatus.className = 'status error show';
+      formatStatus.style.display = 'block';
+      return;
+    }
+
+    try {
+      formatPreviewBtn.disabled = true;
+      formatPreviewBtn.innerHTML = '<span class="spinner"></span> Loading Preview...';
+      formatStatus.style.display = 'none';
+
+      const response = await fetch('/api/format', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(tailoredResumeData)
+      });
+
+      if (!response.ok) {
+        throw new Error(`Server error: ${response.status}`);
+      }
+
+      const html = await response.text();
+
+      // Open in new window
+      const previewWindow = window.open('', '_blank');
+      if (!previewWindow) {
+        throw new Error('Pop-up blocked. Please allow pop-ups for this site.');
+      }
+      previewWindow.document.write(html);
+      previewWindow.document.close();
+
+      formatStatus.textContent = '✅ Preview opened in new tab!';
+      formatStatus.className = 'status success show';
+      formatStatus.style.display = 'block';
+    } catch (error) {
+      console.error('Preview error:', error);
+      formatStatus.textContent = `❌ Preview error: ${error.message}`;
+      formatStatus.className = 'status error show';
+      formatStatus.style.display = 'block';
+    } finally {
+      formatPreviewBtn.disabled = false;
+      formatPreviewBtn.innerHTML = '<span>👁️</span> Preview Resume in New Tab';
+    }
+  });
 }

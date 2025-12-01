@@ -462,6 +462,32 @@
           style="min-height: 400px; font-size: 12px;"></textarea>
       </div>
     </div>
+
+    <!-- FORMAT/PREVIEW TAB -->
+    <div id="format-tab" class="tab-content">
+      <div class="panel" style="max-width: 800px; margin: 0 auto;">
+        <h2>Format & Preview Resume</h2>
+        <p style="margin-bottom: 20px; color: #666;">
+          Preview your resume in HTML format or export to different formats.
+          You must first parse and optionally tailor a resume before previewing.
+        </p>
+
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+          <h3 style="margin-bottom: 15px; color: #667eea;">Preview Options</h3>
+
+          <button class="btn-primary" id="formatPreviewBtn" style="width: 100%; margin-bottom: 10px;">
+            <span>👁️</span> Preview Resume in New Tab
+          </button>
+
+          <p style="font-size: 0.9rem; color: #666; margin-top: 15px;">
+            💡 The preview uses JSON-Resume format with the boilerplate theme.
+            Make sure both the main server (port 3000) and formatter service (port 3002) are running.
+          </p>
+        </div>
+
+        <div id="formatStatus" style="display: none; padding: 15px; border-radius: 8px; margin-top: 15px;"></div>
+      </div>
+    </div>
   </div>
 
   <footer>
