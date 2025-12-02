@@ -451,6 +451,15 @@ async function handleTailor() {
       if (match) filename = match[1];
     }
 
+    // Get the tailored resume JSON from header
+    const tailoredJsonHeader = response.headers.get('X-Tailored-Resume-JSON');
+    if (tailoredJsonHeader) {
+      tailoredResumeData = JSON.parse(decodeURIComponent(tailoredJsonHeader));
+    } else {
+      // Fallback to input data if header not present
+      tailoredResumeData = resumeJson;
+    }
+
     // Get the blob and trigger download
     const blob = await response.blob();
     const url = window.URL.createObjectURL(blob);
@@ -469,9 +478,6 @@ async function handleTailor() {
 
     showTailorStatus('✅ DOCX Generated Successfully! Check your Downloads folder.', 'success');
     downloadArea.style.display = 'block';
-
-    // Store the resume data for preview
-    tailoredResumeData = resumeJson;
 
     // Store the blob for re-download
     downloadDocxBtn.onclick = () => {

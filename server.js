@@ -237,9 +237,11 @@ app.post('/api/tailor', async (req, res) => {
     console.log(`✅ Sending DOCX file: ${filename} (${buffer.length} bytes)`);
 
     // Send file directly with proper headers
+    // Also include the tailored JSON in a header for preview functionality
     res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
     res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
     res.setHeader('Content-Length', buffer.length);
+    res.setHeader('X-Tailored-Resume-JSON', encodeURIComponent(JSON.stringify(tailoredResume)));
     res.send(buffer);
 
   } catch (error) {
